@@ -1,0 +1,74 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.not-found{
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+/* body style */
+.body{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 235, 221);
+  min-height: 100vh;
+}
+.container{
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.top{
+  display: flex;
+  gap: 20px;
+}
+.top input{
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: rgb(246, 235, 221);
+  font-family: sans-serif;
+}
+.top .btn{
+  padding: 15px 20px;
+  border: none;
+  background-color: burlywood;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.top input:focus{
+  outline: 2px solid burlywood;
+  border: 0;
+}
+
+/*  todo styling */
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.todo-container{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.close{
+  background-color: rgb(246, 235, 221);
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 50px;
+}
+.todo-title{
+  font-weight: bolder;
+  max-width: 200px;
+}
